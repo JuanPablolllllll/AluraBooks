@@ -2,19 +2,25 @@
     width: 24px;
     height: 24px;
     display: inline-block;
-    background-image: url(menu.svg);
+    background-image: url(Menu.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
+<<<<<<< HEAD
 
 .cabeçalho {
-    background-color: var(#FFFFFF);
+    background-color: var(--branco);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.container {
+.container{
     display: flex;
     align-items: center;
 }
+
+.container {
+    padding: 1em;
+}
+
